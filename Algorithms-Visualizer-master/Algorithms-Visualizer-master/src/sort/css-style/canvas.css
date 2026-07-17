@@ -1,0 +1,28 @@
+.book {
+  width: 35px;
+  height: 90%;
+  border-radius: 4px 4px 0px 0px;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: inset -3px 0 6px rgba(0, 0, 0, 0.2), inset 3px 0 6px rgba(255, 255, 255, 0.1), 3px 3px 6px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+.book span {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  letter-spacing: 1px;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.canvas {
+  width: 100%;
+}
